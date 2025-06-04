@@ -6,29 +6,28 @@ body {
   color: #1c1e21;
 }
 header {
-  background: #f9fafb;
+  background: #ffffff;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 3px solid #2e8b57;
 }
 .logo {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #2e8b57;
+  height: 50px;
 }
 nav a {
   margin-left: 30px;
   text-decoration: none;
-  color: #1c1e21;
-  font-weight: 500;
+  color: #2e8b57;
+  font-weight: 600;
 }
 .hero {
   padding: 100px 40px 60px;
   max-width: 1000px;
   margin: auto;
   text-align: center;
+  background-color: #e8f5ec;
 }
 .hero h1 {
   font-size: 2.8rem;
@@ -36,7 +35,7 @@ nav a {
 }
 .hero p {
   font-size: 1.2rem;
-  color: #555;
+  color: #333;
   margin-bottom: 40px;
 }
 .cta {
@@ -59,29 +58,49 @@ nav a {
   color: white;
 }
 .btn-primary:hover {
-  background-color: #276d45;
+  background-color: #246b45;
 }
 .btn-secondary {
-  background-color: #f0f0f0;
-  color: #1c1e21;
+  background-color: white;
+  border: 2px solid #2e8b57;
+  color: #2e8b57;
 }
 .section {
   max-width: 1000px;
   margin: auto;
   padding: 60px 40px;
+  border-bottom: 1px solid #ddd;
 }
 .section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: #2e8b57;
 }
-.section p {
-  font-size: 1.1rem;
-  color: #444;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+}
+input, textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
 }
 footer {
   text-align: center;
-  padding: 30px 20px;
-  background: #f9fafb;
+  padding: 20px;
+  background: #f0f0f0;
   font-size: 0.9rem;
-  color: #888;
+  color: #777;
 }
